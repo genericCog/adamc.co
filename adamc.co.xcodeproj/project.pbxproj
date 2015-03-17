@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52E05F311AB8BB8900F867F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E05F301AB8BB8900F867F8 /* AppDelegate.swift */; };
+		52E05F331AB8BB8900F867F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E05F321AB8BB8900F867F8 /* ViewController.swift */; };
+		52E05F361AB8BB8900F867F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E05F341AB8BB8900F867F8 /* Main.storyboard */; };
+		52E05F381AB8BB8900F867F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E05F371AB8BB8900F867F8 /* Images.xcassets */; };
+		52E05F3B1AB8BB8900F867F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52E05F391AB8BB8900F867F8 /* LaunchScreen.xib */; };
+		52E05F471AB8BB8A00F867F8 /* adamc_coTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E05F461AB8BB8A00F867F8 /* adamc_coTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E05F411AB8BB8A00F867F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52E05F231AB8BB8900F867F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E05F2A1AB8BB8900F867F8;
+			remoteInfo = adamc.co;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52E05F2B1AB8BB8900F867F8 /* adamc.co.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adamc.co.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E05F2F1AB8BB8900F867F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E05F301AB8BB8900F867F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52E05F321AB8BB8900F867F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52E05F351AB8BB8900F867F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52E05F371AB8BB8900F867F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52E05F3A1AB8BB8900F867F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52E05F401AB8BB8A00F867F8 /* adamc.coTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adamc.coTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E05F451AB8BB8A00F867F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E05F461AB8BB8A00F867F8 /* adamc_coTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adamc_coTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E05F281AB8BB8900F867F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E05F3D1AB8BB8A00F867F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52E05F221AB8BB8900F867F8 = {
+			isa = PBXGroup;
+			children = (
+				52E05F2D1AB8BB8900F867F8 /* adamc.co */,
+				52E05F431AB8BB8A00F867F8 /* adamc.coTests */,
+				52E05F2C1AB8BB8900F867F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52E05F2C1AB8BB8900F867F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52E05F2B1AB8BB8900F867F8 /* adamc.co.app */,
+				52E05F401AB8BB8A00F867F8 /* adamc.coTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52E05F2D1AB8BB8900F867F8 /* adamc.co */ = {
+			isa = PBXGroup;
+			children = (
+				52E05F301AB8BB8900F867F8 /* AppDelegate.swift */,
+				52E05F321AB8BB8900F867F8 /* ViewController.swift */,
+				52E05F341AB8BB8900F867F8 /* Main.storyboard */,
+				52E05F371AB8BB8900F867F8 /* Images.xcassets */,
+				52E05F391AB8BB8900F867F8 /* LaunchScreen.xib */,
+				52E05F2E1AB8BB8900F867F8 /* Supporting Files */,
+			);
+			path = adamc.co;
+			sourceTree = "<group>";
+		};
+		52E05F2E1AB8BB8900F867F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52E05F2F1AB8BB8900F867F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52E05F431AB8BB8A00F867F8 /* adamc.coTests */ = {
+			isa = PBXGroup;
+			children = (
+				52E05F461AB8BB8A00F867F8 /* adamc_coTests.swift */,
+				52E05F441AB8BB8A00F867F8 /* Supporting Files */,
+			);
+			path = adamc.coTests;
+			sourceTree = "<group>";
+		};
+		52E05F441AB8BB8A00F867F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52E05F451AB8BB8A00F867F8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E05F2A1AB8BB8900F867F8 /* adamc.co */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E05F4A1AB8BB8A00F867F8 /* Build configuration list for PBXNativeTarget "adamc.co" */;
+			buildPhases = (
+				52E05F271AB8BB8900F867F8 /* Sources */,
+				52E05F281AB8BB8900F867F8 /* Frameworks */,
+				52E05F291AB8BB8900F867F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adamc.co;
+			productName = adamc.co;
+			productReference = 52E05F2B1AB8BB8900F867F8 /* adamc.co.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52E05F3F1AB8BB8A00F867F8 /* adamc.coTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E05F4D1AB8BB8A00F867F8 /* Build configuration list for PBXNativeTarget "adamc.coTests" */;
+			buildPhases = (
+				52E05F3C1AB8BB8A00F867F8 /* Sources */,
+				52E05F3D1AB8BB8A00F867F8 /* Frameworks */,
+				52E05F3E1AB8BB8A00F867F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E05F421AB8BB8A00F867F8 /* PBXTargetDependency */,
+			);
+			name = adamc.coTests;
+			productName = adamc.coTests;
+			productReference = 52E05F401AB8BB8A00F867F8 /* adamc.coTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52E05F231AB8BB8900F867F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Adam Cherochak";
+				TargetAttributes = {
+					52E05F2A1AB8BB8900F867F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					52E05F3F1AB8BB8A00F867F8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 52E05F2A1AB8BB8900F867F8;
+					};
+				};
+			};
+			buildConfigurationList = 52E05F261AB8BB8900F867F8 /* Build configuration list for PBXProject "adamc.co" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52E05F221AB8BB8900F867F8;
+			productRefGroup = 52E05F2C1AB8BB8900F867F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52E05F2A1AB8BB8900F867F8 /* adamc.co */,
+				52E05F3F1AB8BB8A00F867F8 /* adamc.coTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E05F291AB8BB8900F867F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E05F361AB8BB8900F867F8 /* Main.storyboard in Resources */,
+				52E05F3B1AB8BB8900F867F8 /* LaunchScreen.xib in Resources */,
+				52E05F381AB8BB8900F867F8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E05F3E1AB8BB8A00F867F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E05F271AB8BB8900F867F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E05F331AB8BB8900F867F8 /* ViewController.swift in Sources */,
+				52E05F311AB8BB8900F867F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E05F3C1AB8BB8A00F867F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E05F471AB8BB8A00F867F8 /* adamc_coTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52E05F421AB8BB8A00F867F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E05F2A1AB8BB8900F867F8 /* adamc.co */;
+			targetProxy = 52E05F411AB8BB8A00F867F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52E05F341AB8BB8900F867F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E05F351AB8BB8900F867F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52E05F391AB8BB8900F867F8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E05F3A1AB8BB8900F867F8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52E05F481AB8BB8A00F867F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52E05F491AB8BB8A00F867F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52E05F4B1AB8BB8A00F867F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = adamc.co/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52E05F4C1AB8BB8A00F867F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = adamc.co/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52E05F4E1AB8BB8A00F867F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = adamc.coTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adamc.co.app/adamc.co";
+			};
+			name = Debug;
+		};
+		52E05F4F1AB8BB8A00F867F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = adamc.coTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adamc.co.app/adamc.co";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E05F261AB8BB8900F867F8 /* Build configuration list for PBXProject "adamc.co" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E05F481AB8BB8A00F867F8 /* Debug */,
+				52E05F491AB8BB8A00F867F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52E05F4A1AB8BB8A00F867F8 /* Build configuration list for PBXNativeTarget "adamc.co" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E05F4B1AB8BB8A00F867F8 /* Debug */,
+				52E05F4C1AB8BB8A00F867F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52E05F4D1AB8BB8A00F867F8 /* Build configuration list for PBXNativeTarget "adamc.coTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E05F4E1AB8BB8A00F867F8 /* Debug */,
+				52E05F4F1AB8BB8A00F867F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52E05F231AB8BB8900F867F8 /* Project object */;
+}
